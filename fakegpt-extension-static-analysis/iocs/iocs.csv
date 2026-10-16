@@ -1,0 +1,10 @@
+type,value,source,note
+sha256,84A4F75606314D3FD487CBA1B8F60353FC4F5A4851DC02B9DEEB2EC34250472D,Get-FileHash on 213-FakeGPT.zip,VirusTotal: Item not found
+domain,mo[.]elshaheedy[.]com,extension JavaScript / lab answer,exfiltration destination
+url,hxxps://mo[.]elshaheedy[.]com/collect?data=,extension JavaScript,image-beacon request carrying encrypted data
+string,SuperSecretKey123,extension JavaScript,hard-coded AES key
+string,exfiltrateCredentials,extension JavaScript,function name
+string,exfiltrateData,extension JavaScript,function name
+extension_name,ChatGPT v1.0 (manifest v2),manifest.json,impersonates a known product
+permissions,"tabs; http://*/*; https://*/*; storage; webRequest; webRequestBlocking; cookies",manifest.json,far beyond stated purpose
+files,"loader.js; app.js; crypto.js; ui.html; img.gif",package contents,

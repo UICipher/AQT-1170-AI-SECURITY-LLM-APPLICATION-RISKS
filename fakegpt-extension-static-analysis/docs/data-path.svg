@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 700 98" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1565C0"/></marker></defs>
+<g font-size="10.5" text-anchor="middle">
+<g><rect x="4" y="24" width="120" height="58" rx="6" fill="#eef4fc" stroke="#1565C0"/><circle cx="14" cy="24" r="9" fill="#0B1B3F"/><text x="14" y="27.5" fill="#fff" font-size="10" font-weight="bold">1</text><text x="64" y="50" font-weight="bold" fill="#0B1B3F">User submits a form</text><text x="64" y="65" fill="#333">or types on any site</text></g>
+<g><rect x="144" y="24" width="120" height="58" rx="6" fill="#eef4fc" stroke="#1565C0"/><circle cx="154" cy="24" r="9" fill="#0B1B3F"/><text x="154" y="27.5" fill="#fff" font-size="10" font-weight="bold">2</text><text x="204" y="50" font-weight="bold" fill="#0B1B3F">app.js on every page</text><text x="204" y="65" fill="#333">reads password + keys</text></g>
+<g><rect x="284" y="24" width="120" height="58" rx="6" fill="#eef4fc" stroke="#1565C0"/><circle cx="294" cy="24" r="9" fill="#0B1B3F"/><text x="294" y="27.5" fill="#fff" font-size="10" font-weight="bold">3</text><text x="344" y="50" font-weight="bold" fill="#0B1B3F">AES encryption</text><text x="344" y="65" fill="#333">key SuperSecretKey123</text></g>
+<g><rect x="424" y="24" width="120" height="58" rx="6" fill="#eef4fc" stroke="#1565C0"/><circle cx="434" cy="24" r="9" fill="#0B1B3F"/><text x="434" y="27.5" fill="#fff" font-size="10" font-weight="bold">4</text><text x="484" y="50" font-weight="bold" fill="#0B1B3F">Hidden Image()</text><text x="484" y="65" fill="#333">/collect?data=&#8230;</text></g>
+<g><rect x="564" y="24" width="132" height="58" rx="6" fill="#fdeeee" stroke="#C62828"/><circle cx="574" cy="24" r="9" fill="#C62828"/><text x="574" y="27.5" fill="#fff" font-size="10" font-weight="bold">5</text><text x="630" y="50" font-weight="bold" fill="#8e1b1b">mo[.]elshaheedy[.]com</text><text x="630" y="65" fill="#333">attacker server</text></g>
+</g>
+<g stroke="#1565C0" stroke-width="1.6" marker-end="url(#ar)"><line x1="124" y1="53" x2="143" y2="53"/><line x1="264" y1="53" x2="283" y2="53"/><line x1="404" y1="53" x2="423" y2="53"/><line x1="544" y1="53" x2="563" y2="53"/></g>
+</svg>
